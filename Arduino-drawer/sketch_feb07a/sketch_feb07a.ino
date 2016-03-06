@@ -12,7 +12,7 @@ void setup() {
  display.display();
  delay(500);
 
- // установка контраста
+ // set contrast
  display.setContrast(60);
  delay(1000);
  Serial.begin(9600); //set transmission rates 9600 b/s
